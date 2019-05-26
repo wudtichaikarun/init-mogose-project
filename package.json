@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node -e js"
+    "start-dev": "nodemon src/index.js --exec babel-node -e js"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -14,10 +14,15 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.4",
+    "conductor-client": "^1.0.2",
     "dotenv": "^8.0.0",
+    "graylog-koa-client": "^3.0.0",
     "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
     "koa-decorator": "^2.0.2",
     "mongoose": "^5.5.5",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "ramda": "^0.26.1",
+    "recursive-readdir-sync": "^1.0.6"
   }
 }
