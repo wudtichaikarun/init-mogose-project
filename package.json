@@ -20,7 +20,7 @@
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-decorator": "^2.0.2",
-    "mongoose": "^5.5.5",
+    "mongoose": "^5.7.5",
     "path": "^0.12.7",
     "ramda": "^0.26.1",
     "recursive-readdir-sync": "^1.0.6"
